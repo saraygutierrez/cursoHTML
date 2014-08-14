@@ -3,25 +3,27 @@
 <head>
     <title>Portafolio</title>
     <meta charset="utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../static/css/normalize.css"/>
     <link rel="stylesheet" href="../static/css/estilos.css"/>
 </head>
 <body>
+
+    <nav class="MainMenu">
+        <ul class="MainMenu-list">
+            <li class="MainMenu-item"><a class="MainMenu-link" href="#yo">Yo</a></li>
+            <li class="MainMenu-item"><a class="MainMenu-link" href="#perfil">Perfil</a></li>
+            <li class="MainMenu-item"><a class="MainMenu-link" href="#trabajo">Trabajo</a></li>
+            <li class="MainMenu-item"><a class="MainMenu-link" href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
     <header id="yo" class="Header">
-        <nav>
-            <ul class="MainMenu">
-                <li class="MainMenu-list"><a href="#yo">Yo</a></li>
-                <li class="MainMenu-list"><a href="#perfil">Perfil</a></li>
-                <li class="MainMenu-list"><a href="#trabajo">Trabajo</a></li>
-                <li class="MainMenu-list"><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
         <figure>
-            <img src="avatar.jpg" alt="Imegen Personal"/>
+            <img src="../static/images/avatar.jpg" alt="Imegen Personal" class="Header-image"/>
             <figcaption>
-                <a href="http://www.twitter.com/saraygutierrez">@saraygutierrez</a>
+                <a href="http://www.twitter.com/saraygutierrez" class="Header-link">@saraygutierrez</a>
             </figcaption>
-            <p>Saray Gutiérrez</p>
+            <p class="Header-name">Saray Gutiérrez</p>
         </figure>
     </header>
     <section id="perfil" class="Profile">
@@ -37,7 +39,7 @@
         <h2 class="Work-title u-title">Mi trabajo</h2>
         <article class="Work-item">
             <figure class="Work-imageContainer">
-                <img class="Work-image" src="mejorandola.jpg" alt=""/>
+                <img class="Work-image" src="../static/images/proyecto.png" alt=""/>
                 <figcaption class="Work-description">
                     Website MedLi
                 </figcaption>
@@ -45,7 +47,7 @@
         </article>
         <article class="Work-item">
             <figure class="Work-imageContainer">
-                <img class="Work-image" src="mejorandola.jpg" alt=""/>
+                <img class="Work-image" src="../static/images/proyecto.png" alt=""/>
                 <figcaption class="Work-description">
                     Website MedLi
                 </figcaption>
@@ -53,7 +55,7 @@
         </article>
         <article class="Work-item">
             <figure class="Work-imageContainer">
-                <img class="Work-image" src="mejorandola.jpg" alt=""/>
+                <img class="Work-image" src="../static/images/proyecto.png" alt=""/>
                 <figcaption class="Work-description">
                     Website MedLi
                 </figcaption>
@@ -61,7 +63,7 @@
         </article>
         <article class="Work-item">
             <figure class="Work-imageContainer">
-                <img class="Work-image" src="mejorandola.jpg" alt=""/>
+                <img class="Work-image" src="../static/images/proyecto.png" alt=""/>
                 <figcaption class="Work-description">
                     Website MedLi
                 </figcaption>
@@ -69,7 +71,7 @@
         </article>
         <article class="Work-item">
             <figure class="Work-imageContainer">
-                <img class="Work-image" src="mejorandola.jpg" alt=""/>
+                <img class="Work-image" src="../static/images/proyecto.png" alt=""/>
                 <figcaption class="Work-description">
                     Website MedLi
                 </figcaption>
@@ -77,7 +79,7 @@
         </article>
         <article class="Work-item">
             <figure class="Work-imageContainer">
-                <img class="Work-image" src="mejorandola.jpg" alt=""/>
+                <img class="Work-image" src="../static/images/proyecto.png" alt=""/>
                 <figcaption class="Work-description">
                     Website MedLi
                 </figcaption>
@@ -92,9 +94,9 @@
         </p>
 
         <form action="" class="Footer-form">
-            <input type="text" placeholder="Nombre" class="Footer-formImput" />
-            <input type="email" placeholder="Email" class="Footer-formImput" />
-            <textarea name="" id="" cols="30" rows="10" placeholder="Comentarios" class="Footer-textarea"></textarea>
+            <input type="text" placeholder="Nombre" class="Footer-formInput" />
+            <input type="email" placeholder="Email" class="Footer-formInput" />
+            <textarea name="" id="" cols="30" placeholder="Comentarios" class="Footer-textarea"></textarea>
             <button type="submit" class="Footer-button">Contactarme</button>
         </form>
     </footer>
